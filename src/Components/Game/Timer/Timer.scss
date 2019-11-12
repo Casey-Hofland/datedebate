@@ -1,0 +1,47 @@
+$blue: rgb(99, 178, 208);
+$pink: rgb(201, 100, 156);
+
+@keyframes spin {
+  to { transform: rotate(.5turn); }
+}
+
+@keyframes bg {
+  to { background: $pink }
+}
+
+.Wrapper {
+  width: 100%;
+
+  .Timer {
+    position: relative;
+
+    .Display {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .Pie {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 50%;
+      background: $blue;
+      background-image: linear-gradient(to right, $blue 50%, $pink 0);
+
+      &::before {
+        content: "";
+        display: block;
+        margin-left: 50%;
+        height: 100%;
+        border-radius: 0 100% 100% 0 / 50%;
+        background-color: inherit;
+        transform-origin: left;
+      }
+    }
+  }
+}

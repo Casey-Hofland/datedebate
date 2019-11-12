@@ -1,0 +1,42 @@
+{
+  "credit": {
+    "icons": {
+      "creator": [
+        "Icons made by"
+      ],
+      "source": [
+        "from"
+      ],
+      "license": [
+        "license by"
+      ]
+    }
+  },
+
+  "welcome": [
+    "Welcome to Date Debate!"
+  ],
+  "start": [
+    "New Debate"
+  ],
+  "rules": {
+    "title": [
+      "Rules of the game:"
+    ],
+    "rule1": [
+      "When the game starts players alternately answer a confronting relationship question."
+    ],
+    "rule2": [
+      "When time has run out the player may stop answering"
+    ],
+    "rule3": [
+      "The timer resets when the player selects to answer a different question."
+    ],
+    "rule4": [
+      "When the player is done answering, the other players have to give their reaction."
+    ],
+    "rule5": [
+      "Be yourself and have fun!"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "credit": {
+    "icons": {
+      "creator": [
+        "Icons gemaakt door"
+      ],
+      "source": [
+        "van"
+      ],
+      "license": [
+        "licentie door"
+      ]
+    }
+  },
+
+  "welcome": [
+    "Welkom bij Date Debate!"
+  ],
+  "start": [
+    "Nieuw Debat"
+  ],
+  "rules": {
+    "title": [
+      "Regels van het spel:"
+    ],
+    "rule1": [
+      "Wanneer het spel begint antwoorden spelers om de beurt een confronterende relatievraag."
+    ],
+    "rule2": [
+      "Als de tijd op is mag de speler niet meer antwoorden."
+    ],
+    "rule3": [
+      "De tijd reset wanneer de speler selecteerd om een andere vraag te beantwoorden."
+    ],
+    "rule4": [
+      "Wanneer de speler klaar is met antwoorden, moeten de andere spelers hun reactie geven."
+    ],
+    "rule5": [
+      "Wees jezelf en veel plezier!"
+    ]
+  }
+}

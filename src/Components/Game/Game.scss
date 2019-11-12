@@ -1,0 +1,64 @@
+@mixin styling($size) {
+  .Question {
+    .Image {
+      width: 100%;
+    }
+  }
+
+  .Reactions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, $size);
+    grid-gap: $size / 2 $size / 4;
+    justify-content: space-between;
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .Results {
+    .Result {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: $size / 2;
+
+      &, th, td {
+        border: 2px solid black;
+      }
+
+      tr {
+        width: 100%;
+      }
+
+      th {
+        padding: $size / 4;
+      }
+
+      .Name {
+        padding: 0 $size / 4;
+        font-size: $size * 0.3125;
+      }
+
+      .Emoji {
+        width: $size / 2;
+        height: $size / 2;
+        padding: $size / 8;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+}
+
+.Game {
+  @media screen and (max-width: 640px) {
+    @include styling($size: 48px);
+  }
+
+  @media screen and (min-width: 640px) {
+    @include styling($size: 64px);
+  }
+}
